@@ -1,0 +1,18 @@
+### 创建待办
+POST  http://127.0.0.1:8888/todo/
+Content-Type: application/json
+
+{
+    "name": "51劳动节",
+    "priority": 10,
+    "startTime": "2022-01-01 00:00:00",
+    "endTime": "2023-12-31 23:59:59",
+    "cycleType": 4,
+    "cycleArrays": "[\"05-01\"]"
+}
+
+
+### 删除待办
+#DELETE http://127.0.0.1:8888/todo/<todo_id>
+DELETE http://127.0.0.1:8888/todo/3967dac2-3a7a-4cd0-bb2f-f107f12bae51
+

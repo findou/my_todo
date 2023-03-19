@@ -1,0 +1,8 @@
+{
+    "name": "38妇女节",
+    "priority": 10,
+    "startTime": "2022-01-01 00:00:00",
+    "endTime": "2023-12-31 23:59:59",
+    "cycleType": 4,
+    "cycleArrays": "[\"03-08\"]"
+}

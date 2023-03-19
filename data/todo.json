@@ -1,0 +1,114 @@
+[
+    {
+        "name": "数学卷子",
+        "priority": 9,
+        "startTime": "2023-03-20 00:00:00",
+        "endTime": "2023-04-02 23:59:59",
+        "cycleType": 2,
+        "cycleArrays": "[1,3,5]"
+    },
+    {
+        "name": "语文卷子",
+        "priority": 9,
+        "startTime": "2023-03-01 00:00:00",
+        "endTime": "2023-03-31 23:59:59",
+        "cycleType": 3,
+        "cycleArrays": "[10,20]"
+    },
+    {
+        "name": "语文阅读",
+        "priority": 5,
+        "startTime": "2023-03-20 00:00:00",
+        "endTime": "2023-04-02 23:59:59",
+        "cycleType": 2,
+        "cycleArrays": "[6,7]"
+    },
+    {
+        "name": "英语卷子",
+        "priority": 7,
+        "startTime": "2023-03-01 00:00:00",
+        "endTime": "2023-03-31 23:59:59",
+        "cycleType": 3,
+        "cycleArrays": "[2,10,15,23,28]"
+    },
+    {
+        "name": "物理卷子",
+        "priority": 8,
+        "startTime": "2023-04-01 00:00:00",
+        "endTime": "2023-04-30 23:59:59",
+        "cycleType": 3,
+        "cycleArrays": "[9,10,17,25,28]"
+    },
+    {
+        "name": "生物卷子",
+        "priority": 9,
+        "startTime": "2023-02-01 00:00:00",
+        "endTime": "2023-02-28 23:59:59",
+        "cycleType": 3,
+        "cycleArrays": "[9,10,17,25,28]"
+    },
+    {
+        "name": "啃苹果",
+        "priority": 6,
+        "startTime": "2023-01-01 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 1,
+        "cycleArrays": "[\"8:30\"]"
+    },
+    {
+        "name": "喝牛奶",
+        "priority": 8,
+        "startTime": "2023-01-01 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 1,
+        "cycleArrays": "[\"20:30\"]"
+    },
+    {
+        "name": "38妇女节",
+        "priority": 10,
+        "startTime": "2022-01-01 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 4,
+        "cycleArrays": "[\"03-08\"]"
+    },
+    {
+        "name": "出去看看",
+        "priority": 10,
+        "startTime": "2023-01-01 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 4,
+        "cycleArrays": "[\"10-01\",\"05-18\"]"
+    },
+    {
+        "name": "打篮球",
+        "priority": 10,
+        "startTime": "2023-01-02 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 2,
+        "cycleArrays": "[3,6]"
+    },
+    {
+        "name": "开发项目",
+        "priority": 10,
+        "startTime": "2023-01-01 00:00:00",
+        "endTime": "2023-03-31 23:59:59",
+        "cycleType": 1,
+        "cycleArrays": "[\"09:30\"]"
+    },
+    {
+        "name": "英语阅读",
+        "priority": 9,
+        "startTime": "2023-02-01 00:00:00",
+        "endTime": "2023-02-28 23:59:59",
+        "cycleType": 3,
+        "cycleArrays": "[1,3,10,17,25,28]"
+    },
+    {
+        "name": "61儿童节",
+        "priority": 10,
+        "startTime": "2021-01-01 00:00:00",
+        "endTime": "2023-12-31 23:59:59",
+        "cycleType": 4,
+        "cycleArrays": "[\"06-01\"]"
+    }
+]

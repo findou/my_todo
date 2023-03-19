@@ -1,0 +1,20 @@
+# 数据导入导出
+
+### 数据导出，不带fileType=json 不会生成json文件，返回数据到body
+# GET http://127.0.0.1:8888/statisView?startTime=<start_time>&&endTime=<end_time>
+# 在浏览器输入地址下载json文件
+# GET http://127.0.0.1:8888/statisView?startTime=<start_time>&&endTime=<end_time>&&fileType=json
+
+### 导出指定时间范围内的数据，格式为json，将地址放到浏览器执行会下载文件
+GET http://127.0.0.1:8888/dataOracle?startTime=2023-03-19 00:00:00&&endTime=2023-03-19 23:59:59&&fileType=json
+
+### 2 查看今日任务与完成情况，开始时间结束时间设置在今日开始结束
+GET http://127.0.0.1:8888/dataOracle?startTime=2023-03-19 00:00:00&&endTime=2023-03-19 23:59:59
+
+
+### 3 查看今日任务与完成情况，结束时间设置在晚上8点，比 上 2 少一条数据（喝牛奶）因为喝牛奶时间在晚上8点半
+GET http://127.0.0.1:8888/dataOracle?startTime=2023-03-19 00:00:00&&endTime=2023-03-19 20:00:00
+
+
+### 数据导入,上传json文件导入数据，json文件格式 见 doc/json 目录 的 uploadFile.json 文件
+POST http://127.0.0.1:8888/dataOracle

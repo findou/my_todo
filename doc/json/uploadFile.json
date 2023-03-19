@@ -1,0 +1,459 @@
+{
+    "queryParam": {
+        "queryStartTime": "2023-03-01 00:00:00",
+        "queryEndTime": "2023-03-19 23:59:59"
+    },
+    "resData": {
+        "totalTaskNum": 42,
+        "totalTaskFinishedNum": 32,
+        "TotalTaskFinishedRatio": 76.19,
+        "dataTodos": [
+            {
+                "name": "38妇女节",
+                "id": "3f156520-b9bd-4d56-8e9d-ca228a8e3b0d",
+                "priority": 10,
+                "createTime": "2023-03-18 16:52:50",
+                "updateTime": "",
+                "startTime": "2022-01-01 00:00:00",
+                "endTime": "2023-12-31 23:59:59",
+                "cycleType": 4,
+                "cycleArrays": "[\"03-08\"]",
+                "status": true,
+                "todoTaskNum": 1,
+                "todoTaskFinishedNum": 0,
+                "todoTaskFinishedRatio": 0,
+                "DataTodoTasks": [
+                    {
+                        "name": "38妇女节",
+                        "id": "4b483253-681b-4005-bdde-2746049cf302",
+                        "todoId": "3f156520-b9bd-4d56-8e9d-ca228a8e3b0d",
+                        "priority": 10,
+                        "createTime": "2023-03-08 01:00:00",
+                        "updateTime": "",
+                        "status": false
+                    }
+                ]
+            },
+            {
+                "name": "喝牛奶",
+                "id": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                "priority": 8,
+                "createTime": "2023-03-18 16:51:18",
+                "updateTime": "",
+                "startTime": "2023-01-01 00:00:00",
+                "endTime": "2023-12-31 23:59:59",
+                "cycleType": 1,
+                "cycleArrays": "[\"20:30\"]",
+                "status": true,
+                "todoTaskNum": 19,
+                "todoTaskFinishedNum": 15,
+                "todoTaskFinishedRatio": 78.95,
+                "DataTodoTasks": [
+                    {
+                        "name": "喝牛奶",
+                        "id": "e37fcb70-f14e-450b-a201-9f197b126be2",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-01 20:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "9b9cfe82-726d-4df7-b190-894e74601499",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-02 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "d99451db-97d6-49db-a11b-28ed2d278443",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-03 20:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "17fc18b8-c7c2-4fae-89bb-4618ea4a470b",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-04 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "1b7c24f3-1e84-4ede-9502-8cd3fab195b9",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-05 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "1245b2c3-8955-445f-8699-66f55cac059b",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-06 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "f65699de-2e8c-4333-b474-c2402254b94b",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-07 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "a0f1d37e-b173-400a-a9b6-ec5f4ca5f9c8",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-08 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "a6a1fd56-bdd2-4265-b831-693d6a8204fa",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-09 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "a277a274-a0eb-43e7-9770-0b9a57c6d937",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-10 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "51243c96-405f-4289-890f-037fe8031a25",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-11 20:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "4200da4b-68fb-402d-b5d1-5d768f9b65ad",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-12 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "c4aef008-336c-4f68-a4cb-1d0944b8b855",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-13 20:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "4262cfd2-1be5-4e3d-b577-7cc1315b801d",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-14 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "8862aa84-8a7d-4795-b9d0-ba504b0f08bc",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-15 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "60e57d77-b9b9-4e80-bffb-0f4305ae4115",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-16 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "5f7670af-57bf-4cb5-bb0a-81fcdad8ea61",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-17 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "24e41c2d-c983-4396-a0e1-7061aae1c670",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-18 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "喝牛奶",
+                        "id": "017be7c0-dc7c-422b-b5c4-a07a55eb5502",
+                        "todoId": "03bd2962-3ea3-4ff3-b356-04606654085c",
+                        "priority": 8,
+                        "createTime": "2023-03-19 20:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    }
+                ]
+            },
+            {
+                "name": "英语卷子",
+                "id": "c6cc7120-5691-4681-b302-6ea35325b6ec",
+                "priority": 7,
+                "createTime": "2023-03-18 16:47:15",
+                "updateTime": "",
+                "startTime": "2023-03-01 00:00:00",
+                "endTime": "2023-03-31 23:59:59",
+                "cycleType": 3,
+                "cycleArrays": "[2,10,15,23,28]",
+                "status": true,
+                "todoTaskNum": 3,
+                "todoTaskFinishedNum": 3,
+                "todoTaskFinishedRatio": 100,
+                "DataTodoTasks": [
+                    {
+                        "name": "英语卷子",
+                        "id": "af4c3680-ad5d-4c86-a3ca-7a188050e109",
+                        "todoId": "c6cc7120-5691-4681-b302-6ea35325b6ec",
+                        "priority": 7,
+                        "createTime": "2023-03-02 01:00:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "英语卷子",
+                        "id": "61457e23-8289-42f6-8545-52a1772cfd75",
+                        "todoId": "c6cc7120-5691-4681-b302-6ea35325b6ec",
+                        "priority": 7,
+                        "createTime": "2023-03-10 01:00:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "英语卷子",
+                        "id": "289bd121-e686-4787-b976-44312e4af193",
+                        "todoId": "c6cc7120-5691-4681-b302-6ea35325b6ec",
+                        "priority": 7,
+                        "createTime": "2023-03-15 01:00:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    }
+                ]
+            },
+            {
+                "name": "啃苹果",
+                "id": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                "priority": 6,
+                "createTime": "2023-03-18 16:50:44",
+                "updateTime": "",
+                "startTime": "2023-01-01 00:00:00",
+                "endTime": "2023-12-31 23:59:59",
+                "cycleType": 1,
+                "cycleArrays": "[\"8:30\"]",
+                "status": true,
+                "todoTaskNum": 19,
+                "todoTaskFinishedNum": 14,
+                "todoTaskFinishedRatio": 73.68,
+                "DataTodoTasks": [
+                    {
+                        "name": "啃苹果",
+                        "id": "21333627-4614-4b7e-86e8-848c1a05224e",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-01 08:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "e67a1061-3190-46f1-8706-2024a3c1d4f5",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-02 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "3f17d528-d40e-47e6-b6cc-d585d47c310a",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-03 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "29499f94-3182-4861-bd55-f8625992e2b5",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-04 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "f296a889-7a88-47a4-8b5e-5fb0826bca37",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-05 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "f00c8af5-b712-4afd-93ec-748fa9a92978",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-06 08:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "87032666-8042-470d-b1b1-40d98733e645",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-07 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "75e18aff-fc2a-46c4-b5c8-6ee3224c1930",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-08 08:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "15e2f694-0535-49b1-a53d-b2f1bb2996d2",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-09 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "4abe7555-8a91-48f8-9b5f-ac139fd1fafa",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-10 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "c0a0f0e3-7cd8-4a5b-8221-8d26efdc6191",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-11 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "97a660b1-57be-4511-af35-d0301421b67c",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-12 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "8653146b-c7ec-436f-9bf2-5b97ecc01fc4",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-13 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "246e6ab7-477a-4fb2-a926-6b4c4b6f6f1d",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-14 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "a4f40cb3-b010-422f-9755-d15a7cd3bff3",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-15 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "d337a086-e3fa-4c6e-b98a-de3a18080655",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-16 08:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "e055eda4-8c79-4af9-ad35-569d984684f4",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-17 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "803237db-4942-4701-9d06-609b2def4887",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-18 08:30:00",
+                        "updateTime": "",
+                        "status": false
+                    },
+                    {
+                        "name": "啃苹果",
+                        "id": "51be64a3-7202-43a9-a920-1e3a6684e334",
+                        "todoId": "7210341d-3526-4973-b7bd-e5d4c45767bf",
+                        "priority": 6,
+                        "createTime": "2023-03-19 08:30:00",
+                        "updateTime": "2023-03-19 10:41:50",
+                        "status": true
+                    }
+                ]
+            }
+        ]
+    }
+}
