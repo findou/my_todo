@@ -1,7 +1,7 @@
 /*
  * @Version: 1.0
  * @Date: 2023-03-17 12:19:49
- * @LastEditTime: 2023-03-19 19:58:59
+ * @LastEditTime: 2023-03-19 22:47:53
  */
 package main
 
@@ -28,9 +28,9 @@ func main() {
 	http.HandleFunc("/task/", tasks.TasksHandler)
 	http.HandleFunc("/dataOracle", dataoracles.DataOraclesHandler)
 	log.Printf("【待办任务服务】启动成功，监听地址：%q\n", LISTEN_ADDRESS)
-	err := http.ListenAndServe(LISTEN_ADDRESS, nil)
+	// err := http.ListenAndServe(LISTEN_ADDRESS, nil)
 
-	// err := http.ListenAndServe("0.0.0.0:9999", nil)
+	err := http.ListenAndServe("0.0.0.0:8888", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}

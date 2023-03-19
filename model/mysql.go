@@ -1,7 +1,7 @@
 /*
  * @Version: 1.0
  * @Date: 2023-02-20 22:04:59
- * @LastEditTime: 2023-03-19 21:30:33
+ * @LastEditTime: 2023-03-19 22:58:22
  */
 package model
 
@@ -15,7 +15,7 @@ import (
 var DB = Init()
 
 func Init() *gorm.DB {
-	dsn := "user:password@tcp(127.0.0.1:3306)/my_todo?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:123456@tcp(127.0.0.1:3306)/my_todo?charset=utf8mb4&parseTime=True&loc=Local"
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal(err)
